@@ -31,6 +31,7 @@ while (tentativi > 0 && !haiVinto) {
         
     }  else if (numeroUtente === numeroVincente) {
         haiVinto = true
+        break;
     }  
     tentativi --
 }
